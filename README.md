@@ -18,14 +18,15 @@ awesome-source-cv.cls
 huajh-awesome-cv.tex
 
 %subsection
-  - section_headline.tex
+  - section_employ.tex 
   - section_education.tex
   - section_publications.tex
-  - section_skills.tex
-  - section_experience_short.tex
-  - section_languages.tex
+  - section_talks.tex
+  - section_teaching.tex
   - section_awards.tex
-  - section_interests.tex
+  - section_skills.tex
+  - section_social.tex
+  - section_references.tex
 ```
 
 
