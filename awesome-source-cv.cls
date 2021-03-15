@@ -19,7 +19,7 @@
 
 \ProvidesClass{awesome-source-cv}[2016/11/05 v1.6.1 Awesome Source CV Class]
 
-\LoadClass[a4paper]{article}
+\LoadClass[letter]{article}
 
 \DeclareOption{green}{
   \def\@green{green}
@@ -54,7 +54,7 @@
 \RequirePackage{url,parskip} 	    % other packages for formatting
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{fullpage}
-\RequirePackage[margin=1.5cm]{geometry}
+\RequirePackage[margin=2cm]{geometry}
 \RequirePackage{fontawesome}
 \RequirePackage{hyperref}\hypersetup{hidelinks}
 \RequirePackage{titlesec}
@@ -140,7 +140,7 @@
 \setlength{\rightcolumnlength}{14.8cm}
 
 \newlength{\leftcolumn}
-\setlength{\leftcolumn}{2.5cm}
+\setlength{\leftcolumn}{12.5cm}
 
 % Font Awesome icons aliases
 \newcommand{\mailSymbol}{\faEnvelope}

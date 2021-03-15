@@ -1,5 +1,5 @@
 \documentclass[localFont]{awesome-source-cv} %alternative
-\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{amsmath}
 \usepackage{amssymb} 
 \usepackage{verbatim}
@@ -13,30 +13,34 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \pagestyle{fancy}
+
+% alias here 
+%\newcommand{\COL}[1]{\textcolor{Rhodamine}{{#1}}}
+%\newcommand{\COL}[1]{\textcolor{Mahogany}{{#1}}}
+\newcommand{\COL}[1]{\textcolor{Blue}{{#1}}}
+\newcommand{\COLL}[1]{\textcolor{Magenta}{{#1}}}
 \fancyhf{} 
 \rfoot{Page \thepage \hspace{1pt}/\pageref{LastPage}}
 \thispagestyle{empty}
 \renewcommand{\baselinestretch}{1.15}
-\usepackage[familydefault,light]{Chivo} 
+\usepackage[familydefault,light]{Chivo}  % CHANGE FOR FONTS HERE
 \name{\textsc{Raghav Govind}}{JHA}        
 \tagline{}
 \usepackage{aas_macros,empheq,fancybox,graphicx,multirow}
 \usepackage{ccfonts,eulervm}
 
 \socialinfo{
-	\homepage{raghavgjha.net} 
+	\homepage{rgjha.github.io} 
 	\github{rgjha}
 	\smartphone{+1 519-570-7150}
 	\email{rjha1@perimeterinstitute.ca}\\
 	\address{227, Perimeter Institute for Theoretical Physics, Waterloo, Ontario N2L 2Y5, Canada}\\
-	%\infos{January 23, 1989 -- Indian Citizen} \\ 
-	\infos{ [{\href{https://inspirehep.net/author/profile/R.G.Jha.1}{\textcolor{blue}{INSPIRE-HEP}}, \href{http://arxiv.org/a/jha_r_1}{\textcolor{blue}{arXiv}}, 
-\href{https://scholar.google.com/citations?hl=en&user=1-lEPu4AAAAJ}{\textcolor{blue}{Google Scholar}}}, {\href{http://orcid.org/0000-0003-2933-0102}{\textcolor{blue}{ORCID [0000-0003-2933-0102]}}}]} 
+{\href{https://inspirehep.net/author/profile/R.G.Jha.1}{\COL{iNSPIRE-HEP}}}, {\href{http://orcid.org/0000-0003-2933-0102}{\COL
+{http://orcid.org/0000-0003-2933-0102 }}} \\
+\infos{Date of Birth: January 23, 1989 ~~ Citizenship: Indian} \\ 
 }
 
-
 \begin{document}
-
 	\makecvheader
         % Order: eept tass r 
 	\input{section_employ} 
@@ -47,8 +51,8 @@
 	\input{section_awards}					
 	\input{section_skills}					
 	\input{section_social}	
+	\input{section_prep}
  	\input{section_references} 
-
 	\noindent \\		
-	\texttt{Last updated:} 01 January 2021
+	\texttt{Last updated:} 15 March 2021
 \end{document}
