@@ -89,7 +89,7 @@
 \colorlet{symbolcolor}{linkcolor!85}
 
 % Setup hyperref package, and colours for links
-%\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{breaklinks}
 
 \pagestyle{empty}                         % non-numbered pages
@@ -116,7 +116,7 @@
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
-\newfontfamily\FA[Path=fonts/]{FontAwesome}
+%\newfontfamily\FA[Path=fonts/]{FontAwesome}
 
 % Define font to use according to localFont option
 \ifundef{\@local}

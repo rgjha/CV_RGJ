@@ -13,16 +13,22 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \pagestyle{fancy}
+%\usepackage[noae]{Sweave}
+%\usetheme{Ufg}
+%\usepackage{newtxtext,newtxmath}
+%\renewcommand{\familydefault}{\rmdefault}
 
 % alias here 
 %\newcommand{\COL}[1]{\textcolor{Rhodamine}{{#1}}}
 %\newcommand{\COL}[1]{\textcolor{Mahogany}{{#1}}}
-\newcommand{\COL}[1]{\textcolor{Blue}{{#1}}}
-\newcommand{\COLL}[1]{\textcolor{Magenta}{{#1}}}
+\definecolor{blue}{rgb}{0.24,0.41,0.91}
+\newcommand{\COL}[1]{\textcolor{blue}{{#1}}}
+\definecolor{brickred}{rgb}{0.8,0.25,0.33}
+\newcommand{\COLL}[1]{\textcolor{brickred}{{#1}}}
 \fancyhf{} 
 \rfoot{Page \thepage \hspace{1pt}/\pageref{LastPage}}
 \thispagestyle{empty}
-\renewcommand{\baselinestretch}{1.26}
+\renewcommand{\baselinestretch}{1.2}
 %\usepackage[familydefault,light]{Palatino}  % CHANGE FOR FONTS HERE
 
 \name{\underline{Raghav Govind JHA}}{}     
@@ -63,9 +69,9 @@
 	\vspace{4mm} 
 	\input{section_mentored}
 	\vspace{4mm} 
-	\input{section_prep}
-	\vspace{4mm} 
+	%\input{section_prep}
+	%\vspace{4mm} 
  	\input{section_references} 
 	\noindent \\		
-	\texttt{Last updated:} 27 January 2022
+	\texttt{Last updated:} 6 February 2022
 \end{document}
