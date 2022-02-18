@@ -13,10 +13,42 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \pagestyle{fancy}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{color,graphicx}
+\usepackage{delarray,amsmath,bbm}
+
+
+
+
 %\usepackage[noae]{Sweave}
 %\usetheme{Ufg}
 %\usepackage{newtxtext,newtxmath}
 %\renewcommand{\familydefault}{\rmdefault}
+\renewcommand{\familydefault}{\sfdefault}
+%\usepackage{times}
+\setromanfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont[Color={0019D4}]{Courier New}
+\setmonofont[Color={87413F}]{Avenir}
+\setmonofont[Color={8A3324}]{Avenir}
+% https://en.wikipedia.org/wiki/List_of_sans_serif_typefaces
+%\usepackage{cmbright}
+%\usepackage[T1]{fontenc}
+%\setmonofont{Lucida Sans Typewriter}
+%\babelprovide[import]{hindi}
+%\babelprovide[import]{sanskrit}
+%\babelfont[*devanagari]{rm}{Lohit Devanagari}
+%\babelfont[*devanagari]{rm}{BABEL Unicode}
+%\setotherlanguage[numerals=western]{hindi}
+%\setotherlanguages{hindi,sanskrit}
+%\newfontfamily\devanagarifont[Script=Devanagari]{Lohit Devanagari}
+
+
+
+
+
 
 % alias here 
 %\newcommand{\COL}[1]{\textcolor{Rhodamine}{{#1}}}
@@ -29,23 +61,24 @@
 \fancyhf{} 
 \rfoot{Page \thepage \hspace{1pt}/\pageref{LastPage}}
 \thispagestyle{empty}
-\renewcommand{\baselinestretch}{1.2}
+\renewcommand{\baselinestretch}{1.15}
 %\usepackage[familydefault,light]{Palatino}  % CHANGE FOR FONTS HERE
-
-\name{\underline{Raghav Govind JHA}}{}     
+\name{\underline{Raghav Govind JHA }}{}     
 \tagline{}
 \usepackage{aas_macros,empheq,fancybox,graphicx,multirow}
 \usepackage{ccfonts,eulervm}
 \definecolor{alizarin}{rgb}{0.82, 0.1, 0.26}
 \definecolor{bittersweet}{rgb}{1.0, 0.44, 0.37}
 
+
+
 \socialinfo{
-	\homepage{rgjha.github.io} 
+	\homepage{rgjha.github.io}
 	%\github{rgjha}
 	%\smartphone{+1 519-570-7150}
 	\email{raghav.govind.jha@gmail.com}\\
 	\address{227, Perimeter Institute for Theoretical Physics, Waterloo, Ontario N2L 2Y5, Canada}\\
-{\href{https://inspirehep.net/author/profile/R.G.Jha.1}{\COL{iNSPIRE-HEP}}}, {\href{http://orcid.org/0000-0003-2933-0102}{\COL
+{\href{https://inspirehep.net/author/profile/R.G.Jha.1}{\COLL{iNSPIRE-HEP}}}, {\href{http://orcid.org/0000-0003-2933-0102}{\COLL
 {ORCID: 0000-0003-2933-0102}}} \\
 \infos{Date of Birth: January 23, 1989 ~~ Citizenship: Indian} \\ 
 }
@@ -74,5 +107,5 @@
 	%\vspace{4mm} 
  	\input{section_references} 
 	\noindent \\		
-	\texttt{Last updated:} 15 February 2022
+	\texttt{Last updated:} 17 February 2022
 \end{document}
